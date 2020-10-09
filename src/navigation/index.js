@@ -6,7 +6,7 @@ class AppNavigator extends Component {
   render() {
     return (
       <NavigationStack
-        ref={navigatorRef => {
+        ref={(navigatorRef) => {
           NavigationService.setTopLevelNavigator(navigatorRef);
         }}
         player={this.props.player}

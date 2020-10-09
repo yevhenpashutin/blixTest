@@ -8,16 +8,17 @@ export const styles = StyleSheet.create({
     fontSize: 20,
     textAlign: 'center',
     marginTop: 50,
-    marginBottom: 20
+    marginBottom: 20,
   },
   albumContainer: {
     flexDirection: 'row',
     flexWrap: 'wrap',
-    justifyContent: 'center'
+    justifyContent: 'center',
   },
   slide: {
     marginRight: 22,
     alignItems: 'center',
+    marginBottom: 10,
   },
   slideImage: {
     width: 147,
