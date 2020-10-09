@@ -1,0 +1,6 @@
+module Pods_blixTest {
+  umbrella header "Pods-blixTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
